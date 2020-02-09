@@ -3,7 +3,7 @@ package pl.beesoft.tanks.tankswarefare.infrastructure.world;
 public class VeryHardMap extends WorldMap {
 
 
-    public VeryHardMap(){
+    public VeryHardMap() {
     }
 
     @Override

@@ -1,5 +1,8 @@
 package pl.beesoft.tanks.tankswarefare.battle;
 
+/**
+ * Create simple battle
+ */
 public class BattleFactory {
 
     private BattleFactory() {

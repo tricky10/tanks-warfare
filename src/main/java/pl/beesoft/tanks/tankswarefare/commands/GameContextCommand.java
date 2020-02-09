@@ -10,7 +10,6 @@ import pl.beesoft.tanks.tankswarefare.infrastructure.generator.WorldBuilder;
 import pl.beesoft.tanks.tankswarefare.infrastructure.world.EasyMap;
 import pl.beesoft.tanks.tankswarefare.infrastructure.world.VeryHardMap;
 import pl.beesoft.tanks.tankswarefare.infrastructure.world.WorldMap;
-import pl.beesoft.tanks.tankswarefare.infrastructure.generator.WorldRandomizer;
 import pl.beesoft.tanks.tankswarefare.storage.FileStorage;
 
 import java.util.logging.Logger;

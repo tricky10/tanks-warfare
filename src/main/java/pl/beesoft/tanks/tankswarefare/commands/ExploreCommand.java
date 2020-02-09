@@ -30,7 +30,7 @@ public class ExploreCommand {
 
     @ShellMethod("This option will show all enemies in the map")
     public void exploreDebug(String password) {
-        if("bozek".equals(password) && GameContext.current().isLoaded()){
+        if ("bozek".equals(password) && GameContext.current().isLoaded()) {
             GameContext.current().state().worldMap().logAllEnemies();
         }
     }
@@ -49,7 +49,7 @@ public class ExploreCommand {
     @ShellMethodAvailability("battlePossible")
     public void exploreBattle() {
         BattleFactory.simple().battleBetween(GameContext.current().state().vehicle(),
-                GameContext.current().state().worldMap().currentPositionEnemy().get(),o -> {
+                GameContext.current().state().worldMap().currentPositionEnemy().get(), o -> {
                     GameContext.current().state().person().improveExperienceBy(o);
                 });
     }
@@ -68,6 +68,6 @@ public class ExploreCommand {
     }
 
     public boolean hasBoughtVehicle() {
-        return GameContext.current().isLoaded() && GameContext.current().state().vehicle()!=null;
+        return GameContext.current().isLoaded() && GameContext.current().state().vehicle() != null;
     }
 }

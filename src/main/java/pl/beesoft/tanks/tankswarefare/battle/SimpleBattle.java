@@ -6,6 +6,9 @@ import java.util.Random;
 import java.util.function.Consumer;
 import java.util.logging.Logger;
 
+/**
+ * Simple battle implementation
+ */
 class SimpleBattle implements Battle {
     private static final int MAX_STRENGTH = 10;
     private static final Logger log = Logger.getLogger(Battle.class.getName());

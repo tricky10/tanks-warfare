@@ -32,7 +32,7 @@ class SimpleWorldRandomizer implements WorldRandomizer {
     public void apply(WorldMap map) {
         log.info("Apply enemies to map");
         int enemies = 0;
-         Square[][] randomMap = new Square[map.getSize()][map.getSize()];
+        Square[][] randomMap = new Square[map.getSize()][map.getSize()];
         for (int i = 0; i < map.getSize(); i++) {
             for (int j = 0; j < map.getSize(); j++) {
                 Square square = new Square();

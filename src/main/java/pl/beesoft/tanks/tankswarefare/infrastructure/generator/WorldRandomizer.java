@@ -13,6 +13,7 @@ public interface WorldRandomizer {
 
     /**
      * Apply enemies to map suing implemented algorytm
+     *
      * @param map
      */
     void apply(WorldMap map);

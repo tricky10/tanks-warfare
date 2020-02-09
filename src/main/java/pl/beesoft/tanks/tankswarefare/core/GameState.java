@@ -15,7 +15,7 @@ public class GameState implements State {
     private GameState() {
     }
 
-    private GameState(Person person, Tank vehicle,WorldMap worldMap) {
+    private GameState(Person person, Tank vehicle, WorldMap worldMap) {
         this.person = person;
         this.vehicle = vehicle;
         this.worldMap = worldMap;
@@ -38,7 +38,6 @@ public class GameState implements State {
     public Tank vehicle() {
         return vehicle;
     }
-
 
 
     @Override

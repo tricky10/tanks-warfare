@@ -8,7 +8,7 @@ public abstract class Person implements Serializable {
     protected int experience;
 
     public void improveExperienceBy(int value) {
-        this.experience+=value;
+        this.experience += value;
     }
 
     public Person(String name) {

@@ -41,7 +41,7 @@ public class VehicleCommand {
     @ShellMethodAvailability({"checkTank"})
     public void myVehicle() {
         Tank vehicle = GameContext.current().state().vehicle();
-        log.info(String.format("Your Tank:%s maxSpeed:%d armor:%d destroyed:%s", vehicle.getName(), vehicle.getMaxSpeed(), vehicle.getArmor(),vehicle.isDestroyed()));
+        log.info(String.format("Your Tank:%s maxSpeed:%d armor:%d destroyed:%s", vehicle.getName(), vehicle.getMaxSpeed(), vehicle.getArmor(), vehicle.isDestroyed()));
     }
 
     public Availability checkTank() {

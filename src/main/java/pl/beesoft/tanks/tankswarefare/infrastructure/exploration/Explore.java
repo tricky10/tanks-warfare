@@ -4,6 +4,9 @@ import pl.beesoft.tanks.tankswarefare.infrastructure.world.WorldMap;
 
 import java.util.logging.Logger;
 
+/**
+ * Exploration of world map
+ */
 public class Explore {
     private static final Logger log = Logger.getLogger(Explore.class.getName());
 
