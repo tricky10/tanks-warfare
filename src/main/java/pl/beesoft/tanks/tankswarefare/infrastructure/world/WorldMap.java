@@ -1,7 +1,6 @@
 package pl.beesoft.tanks.tankswarefare.infrastructure.world;
 
 import pl.beesoft.tanks.tankswarefare.core.exception.GameException;
-import pl.beesoft.tanks.tankswarefare.infrastructure.generator.WorldRandomizer;
 import pl.beesoft.tanks.tankswarefare.tanks.Tank;
 
 import java.io.Serializable;
@@ -42,7 +41,7 @@ public abstract class WorldMap implements Serializable {
         return Optional.ofNullable(square.getEnemy());
     }
 
-    public void apply(Square [][] map){
+    public void apply(Square[][] map) {
         this.map = map;
     }
 
@@ -50,10 +49,10 @@ public abstract class WorldMap implements Serializable {
         log.info(String.format("Current position %d x %d", column, row));
     }
 
-    public void logAllEnemies(){
+    public void logAllEnemies() {
         for (int i = 0; i < getSize(); i++) {
             for (int j = 0; j < getSize(); j++) {
-                if(map[i][j].getEnemy()!=null) {
+                if (map[i][j].getEnemy() != null) {
                     log.info(String.format("Enemy at position %d x %d", i, j));
                 }
             }

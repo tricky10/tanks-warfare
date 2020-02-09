@@ -4,6 +4,9 @@ import pl.beesoft.tanks.tankswarefare.core.State;
 
 import java.util.Optional;
 
+/**
+ * Implementation of a storage could be a simple file od DB
+ */
 public interface Storage {
 
     /**

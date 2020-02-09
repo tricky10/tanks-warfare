@@ -5,6 +5,9 @@ import pl.beesoft.tanks.tankswarefare.storage.Storage;
 import java.util.Optional;
 import java.util.logging.Logger;
 
+/**
+ * Keeps current game context which could be persisted in any storage implementation.
+ */
 public class GameContext {
     private static final Logger log = Logger.getLogger(GameContext.class.getName());
 

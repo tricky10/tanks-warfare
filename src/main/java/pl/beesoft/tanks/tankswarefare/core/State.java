@@ -7,7 +7,7 @@ import pl.beesoft.tanks.tankswarefare.tanks.Tank;
 import java.io.Serializable;
 
 /**
- * States keeps current game state with person vehicle and other equipment
+ * States keeps current game state with person vehicle and other equipment - this object is persisted in DB
  */
 public interface State extends Serializable {
     Person person();

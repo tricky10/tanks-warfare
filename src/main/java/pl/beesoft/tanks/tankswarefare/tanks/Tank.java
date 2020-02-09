@@ -46,7 +46,6 @@ public abstract class Tank implements Serializable {
     }
 
 
-
     public boolean isDestroyed() {
         return destroyed;
     }
