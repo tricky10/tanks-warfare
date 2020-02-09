@@ -28,7 +28,7 @@ More details available under help.
 - You need to explore to move your tank to specified position
 - When you move to specfied square you need to use command to check if enemy exists - the assumption is that all vehicles are hidden to each other.
 - If you find enemy you can proceed to battle
-- When battle begins you your and enemy armor will be decresied by the amount of randomly generated value
+- When battle begins you and your and enemy armor will be decreased by the amount of randomly generated value
 - You will also get experience after battle - which is visible in you characters profile
 
 ### Special price for you
