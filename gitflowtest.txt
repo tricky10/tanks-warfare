@@ -1,3 +1,4 @@
 inital.version
 This is inital 5.0.0 version (start)
 0.7.0
+dodatkowy fix
