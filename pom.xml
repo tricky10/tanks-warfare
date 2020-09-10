@@ -68,11 +68,10 @@
                 <configuration>
                     <flowInitContext>
                         <masterBranchName>frankenstein</masterBranchName>
-                        <developBranchName>development</developBranchName>
+                        <developBranchName>develop</developBranchName>
                         <featureBranchPrefix>feature-</featureBranchPrefix>
                         <releaseBranchPrefix>release-</releaseBranchPrefix>
                         <hotfixBranchPrefix>hotfix-</hotfixBranchPrefix>
-                        <versionTagPrefix>blither-</versionTagPrefix>
                     </flowInitContext>
                 </configuration>
             </plugin>
