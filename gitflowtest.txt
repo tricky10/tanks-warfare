@@ -7,3 +7,4 @@ dodatkowy fix
 0.11.0 <- to ominelismy
 0.12.0
 0.13.0
+0.13.1
