@@ -9,7 +9,7 @@
     </parent>
     <groupId>pl.beesoft.tanks</groupId>
     <artifactId>tanks-warefare</artifactId>
-    <version>2.0.1-SNAPSHOT</version>
+    <version>3.0.1-SNAPSHOT</version>
     <name>tanks-warefare</name>
     <description>Demo project for Spring Boot</description>
 
