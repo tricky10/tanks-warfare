@@ -12,3 +12,4 @@ dodatkowy fix
 0.15.0
 poprawka1
 poprawka2
+poprawka3
